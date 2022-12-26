@@ -253,7 +253,7 @@ La Membresía de asociado de AMSRO está disponible para las personas que no cum
         <!-- Contact-->
 
 
-<!--
+
         <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -266,74 +266,56 @@ La Membresía de asociado de AMSRO está disponible para las personas que no cum
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                     <div class="col-lg-6">
 
--->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
 
-<!--
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
 
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
+                        <form action="https://formspree.io/f/mgebwdvd" method="POST">
 
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
+  <label>
+    Nombre:
+    <input type="name" name="name">
+  </label>
 
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
+  <label>
+    Correo electrónico:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Mensaje:
+    <textarea name="message"></textarea>
+  </label>
 
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
--->
+  <fieldset>
+<!--    <legend>Choose your monster's features:</legend>  -->
 
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-<!--
+    <div>
+      <input type="checkbox" id="newsletter" name="scales" checked>
+      <label for="scales">Recibir boletín de noticias</label>
+    </div>
 
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
+    <div>
+      <input type="checkbox" id="membresía" name="horns">
+      <label for="horns">Información sobre membresía</label>
+    </div>
+</fieldset>
 
--->
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
 
-<!--
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+  <!-- your other form fields go here -->
+  <button type="submit">Enviar</button>
+</form>
 
--->
-                            <!-- Submit Button-->
-<!--
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
                     </div>
                 </div>
+
+
+ <!--               
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
                         <i class="bi-phone fs-2 mb-3 text-muted"></i>
                         <div>+1 (555) 123-4567</div>
                     </div>
                 </div>
+
+  -->              
             </div>
         </section>
 
